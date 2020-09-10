@@ -1,7 +1,7 @@
 <template>
     <v-card
     max-width="500"
-    class="mx-auto"
+    class="card mx-auto"
     >
 
     <ApartmentInfo :apartmentInfoData="data.attributes"></ApartmentInfo>
@@ -32,3 +32,9 @@ export default {
     }
 }
 </script>
+
+<style scoped>
+  .card  {
+    margin: 30px;
+  }
+</style>

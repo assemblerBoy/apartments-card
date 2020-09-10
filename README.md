@@ -1,16 +1,12 @@
 # apartments-card
 
-## Project setup
+## Установка приложения
 ```
 npm install 
 npm install -g json-server
 ```
-### Compiles and hot-reloads for development
+### Обязательно выполнить эти команды для корректной работы
 ```
 npm run serve 
 json-server db.json 
-```
-### Compiles and minifies for production
-```
-npm run build
 ```
